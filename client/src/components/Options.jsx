@@ -2,7 +2,7 @@ import React, { useContext, useState } from 'react';
 import { CopyToClipboard } from 'react-copy-to-clipboard';
 import { SocketContext } from '../SocketContext';
 import { TextField, Button, Grid, Typography, Container, Paper } from '@mui/material'; // Update this import
-// import { makeStyles } from '@material-ui/core/styles'; // Update this import
+import { makeStyles } from '@material-ui/core/styles'; // Update this import
 import { Assignment, Phone, PhoneDisabled } from '@mui/icons-material'; // Update this import
 
 const Options = ({ children }) => {
@@ -47,3 +47,4 @@ const Options = ({ children }) => {
 };
 
 export default Options;
+
